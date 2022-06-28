@@ -1,0 +1,25 @@
+/* Fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+
+/* normalize */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* globales */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+  background-color: #0b100a;
+  font-family: 'Sarala', sans-serif;
+}
+
