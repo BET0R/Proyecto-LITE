@@ -1,6 +1,11 @@
 /* Fuentes */
 
-@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@font-face {
+  font-family: 'Azonix';
+  src: url(../font/Azonix.otf);
+}
 
 /* normalize */
 *,
@@ -19,7 +24,60 @@ html {
 
 body {
   color: #fff;
-  background-color: #0b100a;
-  font-family: 'Sarala', sans-serif;
+  background-image: url("../img/background.jpg");
+  font-family: 'Azonix';
+  /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.text_yellow {
+  color: #fff95b;
+}
+
+header {
+  height: 150px;
+  background-color: black;
+  margin-bottom: 3rem;
+}
+
+/* index */
+
+.slider {
+  margin-bottom: 3rem;
+}
+
+/* estilos footer*/
+
+footer {
+  margin-top: 3rem;
+  background-color: black;
+}
+
+footer h2 {
+  color: #fff95b;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+footer h3 {
+  color: white;
+  text-align: center;
+}
+
+footer div {
+  display: flex;
+  justify-content: center;
+}
+
+.social a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+footer div a:hover {
+  color: #fff95b;
+  transition: all .4s ease-in-out
 }
 
