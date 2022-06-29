@@ -87,13 +87,6 @@ nav {
 
 /* estilos footer*/
 
-footer {
-  background-image: url("../img/footer.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 footer h2 {
   color: #fff95b;
   text-align: center;
