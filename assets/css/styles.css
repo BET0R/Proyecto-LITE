@@ -7,6 +7,18 @@
   src: url(../font/Azonix.otf);
 }
 
+.pepe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_img {
+  width: 150px;
+  margin: 1rem;
+}
+
 /* normalize */
 *,
 *::after,
@@ -20,11 +32,16 @@
 
 html {
   scroll-behavior: smooth;
+  /* height: 100vh; */
 }
 
 body {
   color: #fff;
   background-image: url("../img/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   font-family: 'Azonix', 'Ubuntu', sans-serif;
 }
 
@@ -34,6 +51,12 @@ body {
 
 header {
   margin-bottom: 3rem;
+}
+nav {
+  background-image: url("../img/ImagenArriba.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo {
@@ -59,7 +82,10 @@ header {
 
 footer {
   margin-top: 3rem;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/Imagen_Abajo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 footer h2 {
