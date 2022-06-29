@@ -25,8 +25,7 @@ html {
 body {
   color: #fff;
   background-image: url("../img/background.jpg");
-  font-family: 'Azonix';
-  /* font-family: 'Ubuntu', sans-serif; */
+  font-family: 'Azonix', 'Ubuntu', sans-serif;
 }
 
 .text_yellow {
@@ -34,9 +33,20 @@ body {
 }
 
 header {
-  height: 150px;
-  background-color: black;
   margin-bottom: 3rem;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+ color: #fff95b;
+ transition: all .4s ease-in-out
 }
 
 /* index */
@@ -49,7 +59,7 @@ header {
 
 footer {
   margin-top: 3rem;
-  background-color: black;
+  background-image: url("../img/background.jpg");
 }
 
 footer h2 {
