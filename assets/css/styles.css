@@ -83,6 +83,25 @@ nav {
 
 /* mod */
 
+.disc {
+  display: flex;
+  justify-content: center;
+}
+
+.disc a {
+  color: white;
+  text-decoration: none;
+  font-size: 8rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.disc a:hover {
+  color: #fff95b;
+  transition: all .4s ease-in-out
+}
+
 /* donation */
 
 /* estilos footer*/
