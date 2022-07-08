@@ -1,0 +1,16 @@
+.disc {
+	display: flex;
+	justify-content: center;
+	a {
+		color: white;
+		text-decoration: none;
+		font-size: 8rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		padding: 1rem;
+		&:hover {
+			color: $yellow;
+			transition: all .4s ease-in-out;
+		}
+	}
+}
