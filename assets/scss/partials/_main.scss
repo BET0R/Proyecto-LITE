@@ -12,9 +12,9 @@ body {
 	grid-template-rows: auto 1fr auto;
 	color: #fff;
 	background-image: url("../img/background.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Azonix', 'Ubuntu', sans-serif;
 }
 .text_yellow {
