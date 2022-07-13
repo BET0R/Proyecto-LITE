@@ -35,5 +35,5 @@ p {
 }
 
 .text_yellow {
-	color: $yellow;
+	color: map-get($color, yellow);
 }
